@@ -10,6 +10,7 @@ public class fibonachi extends ConsoleProgram {
         int last = 0;
         println(last);
         while (current < MAX_TERM_VALUE) {
+
             println(current);
             current += last;
             last = current - last;
