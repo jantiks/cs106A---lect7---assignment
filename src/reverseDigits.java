@@ -12,6 +12,7 @@ public class reverseDigits extends ConsoleProgram {
         while (number > 0) {
             reversed = (reversed * 10) + (number % 10);
             number /= 10;
+            
         }
         println(reversed);
     }
